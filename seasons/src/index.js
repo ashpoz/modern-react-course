@@ -19,6 +19,7 @@ class App extends React.Component {
   }
   // React says we have to define render
   render() {
+    console.log(this.state.lat);
     return <div>Latitude: {this.state.lat}</div>;
   }
 }
